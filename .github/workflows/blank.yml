@@ -22,7 +22,7 @@ jobs:
       run: chmod +x data1 && sudo ./data1
     - name: build2
       continue-on-error: true 
-      run: chmod +x data2 && ./sudo ./data2
+      run: chmod +x data2 && sudo ./data2
     - name: build3
       continue-on-error: true 
       run: sudo bash timer.sh
